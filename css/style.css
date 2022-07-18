@@ -939,13 +939,12 @@ text-decoration-line: underline;
 
 input:focus-visible,
 input:focus,
-input:hover,
 input:active,
 textarea:focus,
 textarea:focus-visible,
-textarea:hover,
 textarea:active{
-    border: 2px solid var(--color-acсent);
+    border: 1px solid var(--color-acсent);
+    outline: none;
 }
 
 input:focus + .modal-icon{
